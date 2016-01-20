@@ -30,7 +30,7 @@ public class HookUtil implements IXposedHookLoadPackage
 
 		hookAndGetContext("com.tencent.mm.ui.MMFragmentActivity", lpparam, "onCreate");
 
-		findAndHookMethod("com.tencent.mm.sdk.platformtools.bc", lpparam, "oZ");
+		findAndHookMethod("com.tencent.mm.sdk.platformtools.bb", lpparam, "pu");
 	}
 
 	private void hookAndGetContext(String className, final LoadPackageParam lpparam, String methodName)
